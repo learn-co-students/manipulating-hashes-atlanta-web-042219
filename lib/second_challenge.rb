@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+rtnd_grcry = groceries.values
+rtnd_grcry.flatten
 
 end
