@@ -6,6 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  hash_values = groceries.values.flatten
-  
+  all_items = groceries.values.flatten
+
 end
