@@ -14,9 +14,11 @@ def first_challenge
   }
 
   #your code here
-
-
+  contacts.collect {|k,v|
+    v.collect {|k2,v2| 
+      v2.delete_if {|n| n == "strawberry"} if k2 == :favorite_icecream_flavors 
+    }
+  }
   #remember to return your newly altered contacts hash!
   contacts
 end
-
