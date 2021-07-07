@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  groceries.values.flatten
+  # .each do |key, value|
+  #   value.each do |k, v|
+  #   puts "#{v}"
+  #   end
+  # end
 end
