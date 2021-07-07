@@ -1,3 +1,5 @@
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +9,6 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  new_list = groceries.values
+  new_list.flatten
 end
